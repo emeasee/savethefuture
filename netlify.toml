@@ -1,0 +1,3 @@
+[build]
+  publish = "/home/mjo/server/www"
+  command = "DEBUG=* eleventy"
