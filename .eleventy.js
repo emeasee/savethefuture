@@ -90,6 +90,7 @@ module.exports = function(eleventyConfig) {
         });
       },
     },
+    port: 8888,
     ui: false,
     ghostMode: false
   });
@@ -121,7 +122,7 @@ module.exports = function(eleventyConfig) {
       input: ".",
       includes: "_includes",
       data: "_data",
-      output: "/build"
+      output: "_site"
     }
   };
 };
